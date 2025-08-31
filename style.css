@@ -327,3 +327,13 @@ header {
     text-align: center;
   }
 }
+
+@media (max-width: 400px) {
+  .workflow_brands {
+flex-direction: column;
+  gap: 80px;
+  justify-content: flex-start;
+  align-items: center;
+}
+}
+
